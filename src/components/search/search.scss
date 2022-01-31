@@ -1,0 +1,36 @@
+.search {
+   padding: 34px 0;
+
+   &__form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+   }
+
+   &__input {
+      padding: 6px 18px;
+      display: block;
+      background: rgba(255, 255, 255, 0.3);
+      border: 2px solid #BFBFBFB2;
+      border-radius: 22px;
+      height: 30px;
+      width: 100%;
+      font-family: 'Overpass', sans-serif;
+      font-weight: bold;
+      font-size: 16.7806px;
+      line-height: 21px;
+      color: #FFFFFF;
+      text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+
+      &::placeholder {
+         color: #FFFFFF;
+      }
+   }
+
+   &__btn {
+      background: none;
+      position: absolute;
+      right: 4%;
+   }
+}
